@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "@emotion/styled";
 import imagen from './cryptomonedas.png'
+import Formulario from "./componentes/Formulario";
+
 
 const Contenedor = styled.div`
 max-width:900px;
@@ -48,6 +50,7 @@ function App() {
     
       <div>
         <Heading>COTIZA CRIPTOMONEDAS AL INSTANTE</Heading>
+        <Formulario/>
       </div>
 
     </Contenedor>
