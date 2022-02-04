@@ -10,7 +10,7 @@ const useMoneda = (lebel,inicial,MONEDAS)=>{
 
             <label style={{marginLeft:'60px'}} >{lebel}</label>
             <select>
-                <option vaue=''> Seleccionar </option>
+                <option vaue=''> Seleccionar Moneda</option>
                 {
                     MONEDAS.map (m=>(
                         <option key={m.codigo} vaue={m.codigo}>{m.nombre}</option>
