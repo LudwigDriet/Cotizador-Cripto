@@ -31,7 +31,7 @@ const Nuevo = ()=>{
         {codigo: 'GBP', nombre : 'Libra Esterlina'}
     ]
 
-    const [moneda,Seleccionar,setmoneda]= useMoneda('Elige una moneda','',MONEDAS);
+    const [moneda,Seleccionar,setmoneda]= useMoneda('Elige una moneda para usar','',MONEDAS);
 
     return(
 
