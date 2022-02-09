@@ -40,7 +40,7 @@ const useMoneda = (lebel,inicial,MONEDAS)=>{
                 onChange={ e => setstate(e.target.value)}
                 value={state}
             >
-                <option vaue=''> Seleccionar moneda </option>
+                <option vaue=''> Seleccionar monedas </option>
                 {
                     MONEDAS.map (m=>(
                         <option key={m.codigo} vaue={m.codigo}>{m.nombre}</option>
